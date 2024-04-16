@@ -1,0 +1,18 @@
+& SIMULATION PARAMETERS
+100                             !Number of total runs [Nruns].
+100000                          !Number of total Monte Carlo iterations NMC.
+0.05                            !Time step [dt].
+100.0                           !Maximum projection time [tau_max].
+
+& ELECTRONS
+2                               !Number electrons in the system [NEL].
+
+& NUCLEI [Z a Rx Ry Rz]
+3                               !Number of Nuclei [NUC].
+
+1 1.2 -0.049222 0.00 -0.085255  !Nuclear charge [Z] | Exponent of AO [a] | Nuclear coordinates [Angs.]
+1 1.2 -0.049222 0.00  0.785255
+1 1.2  0.704662 0.00  0.350000
+
+& ENERGY
+-2.0                            !Reference energy [E_ref].
